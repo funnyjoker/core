@@ -7,5 +7,5 @@ const scriptName = (argv.script as string) || 'start';
 if (!folderName) {
   throw Error('folderName is required.');
 }
-
+// test
 startFromFolder(folderName, scriptName);
